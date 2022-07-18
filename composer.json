@@ -1,0 +1,31 @@
+{
+    "name": "knik/gameap",
+    "description": "GameAP",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Nikita Kuznetsov",
+          "email": "nikita.hldm@gmail.com",
+          "role": "Developer",
+          "homepage": "https://github.com/ET-Nik"
+        }
+    ],
+    "require": {
+		"php": ">=5.4",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "ext-mcrypt": "*",
+        "ext-bcmath": "*",
+        "knik/binn": "0.1",
+        "knik/gameq": "3.x-dev"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myth\\": "myth/",
+            "gameap\\": "application/"
+        }
+    }
+}
